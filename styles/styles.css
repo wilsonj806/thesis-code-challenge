@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 24px 0;
   min-height: 100vh;
   background: #372727 url("../assets/img/Image.png");
   background-repeat: no-repeat;
@@ -8,7 +8,8 @@ body {
   background-size: cover;
   font-family: "Roboto";
   color: white;
-  min-width: 100vw;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 main {
@@ -60,9 +61,6 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-  main {
-
-  }
 
   .hero {
     height: 28%;

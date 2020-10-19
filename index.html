@@ -26,15 +26,29 @@
         </li>
       </ul>
       <div class="nav__dropdown">
-        <button class="burger-button" type="button" id="navBurger" >
+        <button class="burger-button" type="button" id="navBurger">
           <img src="assets/img/Burger.png" alt="burger menu">
         </button>
         <ul class="nav__menu" id="navMenu" data-open="false">
           <li class="nav__item nav__item--close">
             <button class="button-close" id="close" type="button">
-              Close Menu
+              &#x2715; Close Menu
             </button>
           </li>
+          <div class="nav__mobile-links nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">Integrations</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">Contacts</a>
+            </li>
+          </div>
           <li class="nav__item">
             <a class="nav__link nav__link--menu" href="#">Case Studies</a>
           </li>
@@ -44,20 +58,6 @@
           <li class="nav__item">
             <a class="nav__link nav__link--menu" href="#">Gallery</a>
           </li>
-
-          <div class="nav--mobile-links">
-            <li class="nav__item">
-              <a href="#" class="nav__link nav__link--header"></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link nav__link--header"></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link nav__link--header"></a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link nav__link--header"></a>
-            </li>
-          </div>
         </ul>
       </div>
     </nav>
@@ -70,7 +70,7 @@
         but great love for other people. </p>
     </div>
     <div class="signup-form">
-      <form id="signupForm">
+      <form class="form" id="signupForm">
         <label>
           <input name="Name" placeholder="Name" required>
         </label>
@@ -100,9 +100,9 @@
         <li class="nav__item nav__item">
           <a class="nav__link nav__link--footer" href="#">Terms of Use</a>
       </li>
-        <li class="nav__item nav__item">
-          <a class="nav__link nav__link--footer" href="#">Privacy Policy</a>
-        </li>
+      <li class="nav__item nav__item">
+        <a class="nav__link nav__link--footer" href="#">Privacy Policy</a>
+      </li>
       </ul>
     </nav>
   </footer>

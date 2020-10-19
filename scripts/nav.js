@@ -8,13 +8,13 @@ hamburger.addEventListener('click', () => {
 
   if (open == 'false') {
     navMenu.classList.add('nav__menu--active')
-    navMenu.setAttribute('open','true')
+    navMenu.setAttribute('data-open','true')
   }
 })
 
 close.addEventListener('click', () => {
   const navMenu = document.getElementById('navMenu')
   navMenu.classList.remove('nav__menu--active')
-  navMenu.setAttribute('open','false')
+  navMenu.setAttribute('data-open','false')
 
 })
