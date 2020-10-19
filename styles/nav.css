@@ -114,7 +114,7 @@
   display: block;
   visibility: visible;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   margin-top: 0;
 }
 
@@ -144,8 +144,12 @@
     width: 300px;
   }
 
+  .nav__link--menu {
+    font-size: 24px;
+  }
   .nav__menu--active {
     margin-top: 30px;
+    height: auto
   }
 
   .nav__mobile-links {

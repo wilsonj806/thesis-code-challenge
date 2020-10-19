@@ -15,7 +15,6 @@ body {
 
 main {
   width: 100%;
-  min-height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -260,6 +259,13 @@ main {
 }
 
 @media screen and (min-width: 600px) {
+  main {
+    justify-content: space-around;
+  }
+  .hero {
+    width: 555px;
+    height: 347px;
+  }
   .form {
     width: 460px;
   }
@@ -274,13 +280,6 @@ main {
 @media screen and (min-width: 1000px) {
   main {
     flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .hero {
-    height: 38%;
-    width: 43%;
-    box-sizing: content-box;
   }
 
   .heading {
@@ -313,9 +312,4 @@ main {
     line-height: 24px;
   }
 }
-@media screen and (min-width: 1440px) {
-  .hero {
-    height: 28%;
-    width: 28%;
-  }
-}
+
