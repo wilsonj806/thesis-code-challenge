@@ -26,28 +26,31 @@
         </li>
       </ul>
       <div class="nav__dropdown">
-        <button class='burger-button' type="button" id="nav__burger">
+        <button class="burger-button" type="button" id="navBurger" >
           <img src="assets/img/Burger.png" alt="burger menu">
         </button>
-        <ul class="nav__menu" id="navMenu">
-          <li class="nav__item">
-            <a class="nav__link nav__link--menu" href="#"></a>
+        <ul class="nav__menu" id="navMenu" data-open="false">
+          <li class="nav__item nav__item--close">
+            <button class="button-close" id="close" type="button">
+              Close Menu
+            </button>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--menu" href="#"></a>
+            <a class="nav__link nav__link--menu" href="#">Case Studies</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--menu" href="#"></a>
+            <a class="nav__link nav__link--menu" href="#">Enterprise</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--menu" href="#"></a>
+            <a class="nav__link nav__link--menu" href="#">Gallery</a>
           </li>
+
           <div class="nav--mobile-links">
             <li class="nav__item">
-              <a href="#" class="nav__link nav__link--header">Testimonials</a>
+              <a href="#" class="nav__link nav__link--header"></a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link nav__link--header">Enterprise</a>
+              <a href="#" class="nav__link nav__link--header"></a>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link nav__link--header"></a>
@@ -105,5 +108,6 @@
   </footer>
   <script src="scripts/main.js"></script>
   <script src="scripts/form.js"></script>
+  <script src="scripts/nav.js"></script>
 </body>
 </html>
