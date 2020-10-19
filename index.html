@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stamp</title>
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+  <header>
+    <nav class="nav nav--header">
+      <div class="nav__logo"><img src="./assets/img/Logo.png" alt="logo"></div>
+      <ul class="nav__list" id="primaryList">
+        <li class="nav__item">
+          <a class="nav__link nav__link--header" href="#">About</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--header" href="#">Integrations</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--header" href="#">Pricing</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--header" href="#">Contacts</a>
+        </li>
+      </ul>
+      <div class="nav__dropdown">
+        <button class='burger-button' type="button" id="nav__burger">
+          <img src="assets/img/Burger.png" alt="burger menu">
+        </button>
+        <ul class="nav__menu" id="navMenu">
+          <li class="nav__item">
+            <a class="nav__link nav__link--menu" href="#"></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--menu" href="#"></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--menu" href="#"></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--menu" href="#"></a>
+          </li>
+          <div class="nav--mobile-links">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header">Enterprise</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--header"></a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link--header"></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1 class="heading">Simple Way To Organize Your Inspirations</h1>
+      <p class="hero-text">I think what motivates people is not great hate,
+        but great love for other people. </p>
+    </div>
+    <div class="signup-form">
+      <form id="signupForm">
+        <label>
+          <input name="Name" placeholder="Name" required>
+        </label>
+        <label>
+          <input name="Email" placeholder="Email" required>
+        </label>
+        <label>
+          <input name="Password" type="password" placeholder="Password" required>
+        </label>
+        <button class="button button__submit">
+          Sign Up >
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <nav class="nav nav--footer">
+      <span class="copyright">&#169; 2020 Stamp. All Rights Reserved</span>
+      <ul class="nav__list">
+        <li class="nav__item nav__item">
+          <a class="nav__link nav__link--footer" href="#">Contact</a>
+        </li>
+        <li class="nav__item nav__item">
+          <a class="nav__link nav__link--footer" href="#">Help</a>
+        </li>
+        <li class="nav__item nav__item">
+          <a class="nav__link nav__link--footer" href="#">Terms of Use</a>
+      </li>
+        <li class="nav__item nav__item">
+          <a class="nav__link nav__link--footer" href="#">Privacy Policy</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/form.js"></script>
+</body>
+</html>
