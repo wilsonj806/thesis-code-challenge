@@ -14,3 +14,4 @@ This repo contains a link to the Thesis code challenge. Static assets are in the
 ## FIXME
 Includes things I don't have time for:
 - burger menu doesn't span entire width of the screen on mobile even though it should
+- password visibility button
